@@ -108,13 +108,14 @@ class Laboratorio06Controller extends Controller
                     $costo_dia=100;
                 }
             }else{
+                echo "La habitación matrimonial tiene un limite de 4 personas";
                 return;
             }
 
         }
         $neto=$costo_dia*$quantity_dias;
 
-        echo "La habitacion es: $habitacion, el monto total es: $neto y la cantidad de personas son: $quantity_personas";
+        echo "La habitacion es: $habitacion, el monto total es: $ $neto y la cantidad de personas son: $quantity_personas";
 
     }
 }

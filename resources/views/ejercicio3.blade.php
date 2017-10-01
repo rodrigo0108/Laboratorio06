@@ -30,7 +30,7 @@
     <br>
     <pre>Ingrese la cantidad de personas según la habitación</pre>
 
-    <pre>Personas    <input type="number" name="quantity_personas" min="0" max="4"></pre>
+    <pre>Personas    <input type="number" name="quantity_personas" min="0" max="6"></pre>
 
     <br>
 
